@@ -21,6 +21,7 @@ export default function HomePage() {
     i.reduce((acc, cur) => acc + cur.totalAmount, 0),
   );
   const { data: balance } = useGetBalance(Number(refresh));
+
   const expenses = transformData((i) =>
     i
       .filter((inv) => inv.paymentStatus === "Paid")
