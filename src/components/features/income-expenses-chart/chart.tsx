@@ -24,15 +24,15 @@ const chartConfig = {
     label: "Amount",
   },
   income: {
-    label: "Income",
+    label: "Inc",
     color: "hsl(var(--chart-1))",
   },
   expenses: {
-    label: "Expenses",
+    label: "Exps",
     color: "hsl(var(--chart-2))",
   },
   balance: {
-    label: "Balance",
+    label: "Bal",
     color: "hsl(var(--chart-3))",
   },
 } satisfies ChartConfig;

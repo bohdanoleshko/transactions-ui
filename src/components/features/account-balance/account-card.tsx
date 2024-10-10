@@ -36,7 +36,7 @@ export default function AccountCard({
           <span className="text-2xl font-bold text-white">{income}</span>
         </div>
         <div className="flex flex-col">
-          <span className="text-sm text-gray-100">Expences</span>
+          <span className="text-sm text-gray-100">Expenses</span>
           <span className="text-2xl font-bold text-white">{expenses}</span>
         </div>
       </div>
