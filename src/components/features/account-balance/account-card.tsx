@@ -15,6 +15,7 @@ export default function AccountCard({
 }) {
   return (
     <div
+      id="account-card"
       className={cn(
         className,
         "flex flex-col justify-between gap-2 rounded-xl bg-red-400 p-3",

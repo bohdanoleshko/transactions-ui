@@ -11,7 +11,7 @@ export function CardForExpensesTable({
   children: ReactNode;
 }) {
   return (
-    <Card className={cn(className)}>
+    <Card className={cn(className)} id="transaction-table-card">
       <CardHeader>
         <CardTitle>Expenses</CardTitle>
       </CardHeader>

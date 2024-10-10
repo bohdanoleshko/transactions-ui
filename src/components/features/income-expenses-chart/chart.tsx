@@ -45,7 +45,7 @@ export function ChartIncomeExpenses({
   chartData: ChartData;
 }) {
   return (
-    <Card className={cn(className)}>
+    <Card className={cn(className)} id="chart-card">
       <CardHeader>
         <CardTitle>Financial Overview</CardTitle>
         <CardDescription>Income, Expenses, and Balance</CardDescription>

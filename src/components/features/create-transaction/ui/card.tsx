@@ -10,7 +10,7 @@ export function TransactionCard({
   children: ReactNode;
 }) {
   return (
-    <Card className={cn(className)}>
+    <Card className={cn(className)} id="transaction-card">
       <CardContent className="flex gap-2 p-4">{children}</CardContent>
     </Card>
   );

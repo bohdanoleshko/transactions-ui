@@ -2,7 +2,6 @@
 import {
   Dialog,
   DialogContent,
-  DialogDescription,
   DialogHeader,
   DialogTitle,
   DialogTrigger,
@@ -12,8 +11,7 @@ import { TransactionForm } from "./ui/form";
 
 export function DialogWindow({
   trigger,
-  title = "Title",
-  description = "Dialog description",
+  title = "Create new transfer",
 }: {
   trigger: ReactNode;
   title?: string;
@@ -26,7 +24,6 @@ export function DialogWindow({
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
-          <DialogDescription>{description}</DialogDescription>
         </DialogHeader>
         <TransactionForm close={setOpen} />
       </DialogContent>

@@ -47,12 +47,14 @@ export default function HomePage() {
   return (
     <div className="grid w-full gap-3 p-3 md:grid-flow-col md:grid-rows-6 smd:grid-cols-1">
       <AccountCard
+        data-testid="account-card"
         expenses={expenses}
         income={income}
         balance={balance.value?.balance}
         className="w-full md:row-span-2 smd:col-span-1"
       />
       <ChartIncomeExpenses
+        data-testid="chart-income-expenses"
         chartData={chartData}
         className="col-span-1 md:row-span-4"
       />
@@ -69,9 +71,11 @@ export default function HomePage() {
             }
           />
         )}
+        data-testid="transaction"
         className="md:row-span-4 smd:col-span-1"
       />
       <TransactionsTable
+        data-testid="transactions-table"
         invoices={data.value}
         total={total}
         className="md:row-span-10 smd:col-span-1"
