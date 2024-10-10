@@ -1,5 +1,5 @@
 "use client";
-import { CreditCard, Keyboard, LogOut, Settings, User } from "lucide-react";
+import { LogOut } from "lucide-react";
 
 import {
   DropdownMenu,

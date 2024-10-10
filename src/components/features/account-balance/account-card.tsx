@@ -1,7 +1,4 @@
 "use client";
-import { useAppInit } from "@/hooks/useAppInit";
-import { useGetBalance } from "@/hooks/useGetBalance";
-import { useGetInvoices } from "@/hooks/useGetInvoices";
 import { cn } from "@/lib/utils";
 import { Cpu } from "lucide-react";
 

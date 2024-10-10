@@ -10,7 +10,6 @@ import {
 } from "@/components/ui/table";
 import { CardForExpensesTable } from "./ui/card";
 import { cn } from "@/lib/utils";
-import { useGetInvoices } from "@/hooks/useGetInvoices";
 import { type z } from "zod";
 import { type invoicesSchema } from "@/zod/schema";
 
