@@ -15,8 +15,8 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <body className="flex h-[100dvh] items-center bg-slate-50 lg:p-4 smd:overflow-y-auto">
-        <main className="flex h-full w-full flex-col items-start rounded-lg bg-white shadow-md lg:flex-row lg:justify-end">
+      <body className="flex items-center bg-slate-50 md:h-[100dvh] lg:p-4 smd:overflow-y-auto">
+        <main className="flex h-full w-full flex-col items-start bg-white shadow-md lg:flex-row lg:justify-between lg:rounded-lg">
           <NavBar />
           <div className="smd:w-full">{children}</div>
         </main>

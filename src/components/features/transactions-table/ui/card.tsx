@@ -15,7 +15,7 @@ export function CardForExpensesTable({
       <CardHeader>
         <CardTitle>Expenses</CardTitle>
       </CardHeader>
-      <CardContent className="max-h-[80dvh] w-full overflow-y-auto md:max-h-[84dvh] smd:max-h-[20dvh]">
+      <CardContent className="w-full overflow-y-auto md:max-h-[78dvh] lg:max-h-[80dvh] smd:max-h-[30dvh]">
         {children}
       </CardContent>
     </Card>
